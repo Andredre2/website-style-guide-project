@@ -1,0 +1,83 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #F4F4F9;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #2F4550;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    color: #586F7C;
+}
+
+.main-container {
+    border: 2px solid #586F7C;
+    border-style: groove;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 4%;
+}
+
+.color-panel {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 100;
+    display: table-cell;
+    padding: 40px;
+    min-height: 100px;
+    width: 20%;
+}
+
+.black {
+    background-color: black;
+    color: #F4F4F9;
+}
+
+.charcoal {
+    background-color: #2F4550;
+    color: #F4F4F9;
+}
+
+.cadet {
+    background-color: #586F7C;
+    color: black;
+}
+
+.powder-blue {
+    background-color: #B8DBD9;
+    color: black;
+}
+
+.ghost-white {
+    background-color: #F4F4F9;
+    color: black;
+}
+
+.font-panel {
+    width: 50%;
+    padding: 15px;
+}
+
+.ibm-plex-mono {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.oxygen {
+    font-family: 'Oxygen', sans-serif;
+}
